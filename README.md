@@ -1,20 +1,20 @@
-# Transistor_Characterization
+# Transistor/ Amplifier Characterization
 
-Hola! Este código está hecho para realizar la caracterízación de parámetros de un amplificador con transistor de emisor o base común a partir de los valores de:
+Hey! This code provides a set of tools to characterize Amplifiers in emisor or base common configuration , this is done by providing it a set of parameters: 
 
+*   VCC - DC Supply
+*   RE - Emisor Resistor
+*   R1 - First resistor in the voltaje divisor
+*   R2 - Second resistor in the voltaje divisor
+*   R3 - Third resistor in the voltaje divisor
+*   RC - Collector resistor
+*   BETA - Beta/HF value
+*   RL - Carge resistor
+*   CC - Collector capacitance
+*   CE - Emisor Capacitance 
+*   CB - Base Capacitance 
 
-*   VCC - Voltaje de la fuente directa
-*   RE - Resistencia del emisor
-*   R1 - Resistencia 1 del divisor de voltaje
-*   R2 - Resistencia 2 del divisor de voltaje
-*   RC - Resistencia del colector
-*   BETA - Valor beta del transistor
-*   RL - Valor de la resistencia de carga
-*   CC - Valor del capacitor del colector
-*   CE - Valor del capacitor del emisor
-*   CB - Valor del capacitor de la base
-
-Retorna los valores de:
+Also it's able to resolve for a voltaje divisor using 1, 2 or 3 resistors. The output corresponds to: 
 
 *   VBB
 *   RB
@@ -31,5 +31,5 @@ Retorna los valores de:
 *   FCB
 *   FCE
 *   FCC
-*   F_min - Frecuencia mínima de amplifificación
-*   VI_Max
+*   F_min - Minimum amplification frequency for a stable voltage
+*   VI_Max 

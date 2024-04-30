@@ -1,4 +1,4 @@
-# Transistor/ Amplifier Characterization
+# Transistor / Amplifier Characterization
 
 Hey! This code provides a set of tools to characterize Amplifiers in emisor or base common configuration , this is done by providing it a set of parameters: 
 
